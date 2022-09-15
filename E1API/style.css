@@ -1,0 +1,142 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: url("fondo.jpg") no-repeat;
+    background-size: cover;
+}
+#contenedor{
+    width: 75%;
+    height: 75%;
+    border: 10px solid gold;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+#info{
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    background-color: grey;
+}
+#lista{
+    text-align: center;
+    width: 50%;
+    height: 500px;
+    background-color: red;
+    font-size: 18px;
+    overflow-y: auto;
+}
+.nombre{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: gold;
+    margin: 5px;
+    padding: 5px;
+}
+#info img{
+    width: 65%;
+    height: 65%;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 20px;
+    background-color: white;
+
+}
+.caja-tipo{
+    padding: 3px;
+    margin: 5px;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.normal {
+    background-color: beige;
+    color: black;
+}
+.fire {
+    background-color: orange;
+    color: white;
+}
+.grass {
+    background-color: green;
+    color: white;
+}
+.water {
+    background-color: blue;
+    color: white;
+}
+.ice {
+    background-color: lightblue;
+    color: black;
+}
+.electric {
+    background-color: gold;
+    color: black;
+}
+.fighting {
+    background-color: darkred;
+    color: white;
+}
+.flying {
+    background-color: skyblue;
+    color: black;
+}
+.bug {
+    background-color: yellowgreen;
+    color: white;
+}
+.ghost {
+    background-color: purple;
+    color: white;
+}
+.rock {
+    background-color: sienna;
+    color: white;
+}
+.ground {
+    background-color: burlywood;
+    color: black;
+}
+.steel {
+    background-color: silver;
+    color: black;
+}
+.dark {
+    background-color: darkgray;
+    color: white;
+}
+.psychic {
+    background-color: palevioletred;
+    color: white;
+}
+.fairy {
+    background-color: pink;
+    color: black;
+}
+.dragon {
+    background-color: teal;
+    color: white;
+}
+.poison {
+    background-color: darkviolet;
+    color: white;
+}
+#desc{
+    text-align: justify;
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 2px;
+    font-size: 18px;
+    overflow-y: auto;
+}
+footer{
+    display: flex;
+    margin: 0 auto;
+    font-size: 32px;
+    justify-content: space-around;
+}
