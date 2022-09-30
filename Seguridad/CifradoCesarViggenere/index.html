@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado Cesar y Viggenere - RBEE</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="Cesar">
+        <h1>Cifrado Cesar</h1>
+        <form id="cesar"><input type="text" name="cadena" class="texto" placeholder="Ingrese el texto" id="cadena" autocomplete="off"></form>
+        <input type="range" name="rango" id="rango" value="3" min="1" max="26" oninput="this.nextElementSibling.value = this.value">
+        <output id="a">3</output>
+        <div id="resultado" class="resultado"></div>
+        <button id="cifrarB" onclick="cifrar()">Cifrar</button>
+        <button id="descifrarB" onclick="descifrar()">Descifrar</button>
+    </div>
+    <div class="Viggenere">
+        <h1>Cifrado Viggenere</h1>
+        <form id="viggenere"><textarea name="texto" id="texto V" cols="30" rows="10"></textarea></form>
+        <input type="text" class="texto" name="clave" placeholder="Ingrese la clave" id="clave" autocomplete="off">
+        <div id="resultado V" class="resultado"></div>
+        <button id="cifrarB" onclick="app.doCrypt(false)">Cifrar</button>
+        <button id="descifrarB" onclick="app.doCrypt(true)">Descifrar</button>
+    </div>
+</body>
+<script src="js/cesar.js"></script>
+<script src="js/viggenere.js"></script>
+</html>
